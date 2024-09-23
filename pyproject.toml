@@ -9,4 +9,5 @@ dependencies = [
     "motor>=3.6.0",
     "odmantic>=1.0.2",
     "python-dotenv>=1.0.1",
+    "uvicorn>=0.30.6",
 ]

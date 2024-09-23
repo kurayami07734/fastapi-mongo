@@ -11,4 +11,4 @@ WORKDIR /app
 RUN uv sync --frozen --no-cache
 
 EXPOSE 8000
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["/app/.venv/bin/fastapi", "run", "src/main.py", "--port", "8000"]
